@@ -122,6 +122,20 @@ a:hover i {
     }
 }
 
+@media (max-width: 360px) {
+    .main {
+        padding-top: 2rem;
+    }
+
+    .logo {
+        width: 110px;
+    }
+
+    p {
+        padding: 0 1.25rem;
+    }
+}
+
 @media (max-width: 414px) {
     .main {
         padding-top: 0;
@@ -140,20 +154,28 @@ a:hover i {
     }
 }
 
-@media (max-width: 360px) {
-    .main {
-        padding-top: 2rem;
+
+@media (min-width: 500px) {
+    body {
+        font-size: .8rem;
+        line-height: 1.25;
     }
 
     .logo {
-        width: 110px;
+        margin: 4rem 0 0;
+        width: 120px;
     }
 
     p {
-        padding: 0 1.25rem;
+        padding: 0 3rem;
+        font-size: 1.2rem;
+        list-style: 1.6;
+    }
+
+    h1 {
+        font-size: 2rem;
     }
 }
-
 
 @media (min-width: 768px) {
     body {
@@ -162,7 +184,7 @@ a:hover i {
     }
 
     .logo {
-        margin: 10rem 0 0;
+        margin: 7rem 0 0;
         width: 140px;
     }
 
@@ -170,9 +192,5 @@ a:hover i {
         padding: 0 3rem;
         font-size: 1.5rem;
         list-style: 1.6;
-    }
-
-    .social-icons {
-        margin-top: 2.75rem;
     }
 }
